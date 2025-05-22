@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: auth
+
+
+store:
+  jwt:
+    issuer: Insper
+    secretKey: ${JWT_SECRET_KEY:yrBBgYlvJQeslzFlgX9MFZccToI2fjRFqualquercoisa}
